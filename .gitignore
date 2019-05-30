@@ -1,0 +1,8 @@
+DEBUG/
+x64/
+x86/
+ClockTick/Debug
+ClockTick/x86
+ClockTick/x64
+.vs/
+*.exe

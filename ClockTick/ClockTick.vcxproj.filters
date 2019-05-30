@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\File">
+      <UniqueIdentifier>{7a9be86b-07cc-4cf8-80f0-3200dbfa67db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PropertySheet">
+      <UniqueIdentifier>{7bab0cff-9060-49e5-b146-05771200f31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Paint">
+      <UniqueIdentifier>{dbe125fe-5d09-46ce-9b20-6f415bec41f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Print">
+      <UniqueIdentifier>{1687c80f-be02-4170-867e-1d0d21d51ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TimeZone">
+      <UniqueIdentifier>{547bca77-79e8-4332-a5ec-c2a1f2a7d5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FontColor">
+      <UniqueIdentifier>{bbd8ce83-ad4a-4802-bd0e-124991bade20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockTick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Source Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertySheet.h">
+      <Filter>Source Files\PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.h">
+      <Filter>Source Files\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>Source Files\Paint</Filter>
+    </ClInclude>
+    <ClInclude Include="FontColorDlg.h">
+      <Filter>Source Files\FontColor</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeZoneDlg.h">
+      <Filter>Source Files\TimeZone</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockTick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertySheet.cpp">
+      <Filter>Source Files\PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Print.cpp">
+      <Filter>Source Files\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="Paint.cpp">
+      <Filter>Source Files\Paint</Filter>
+    </ClCompile>
+    <ClCompile Include="FontColorDlg.cpp">
+      <Filter>Source Files\FontColor</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeZoneDlg.cpp">
+      <Filter>Source Files\TimeZone</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClockTick.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ClockTick.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
